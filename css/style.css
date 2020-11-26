@@ -1,0 +1,126 @@
+/* COMMON */
+.text-white{
+  color: #fff;
+}
+.tect-grey{
+  color: #abb1c1;
+}
+.button-container{
+  text-align: center;
+}
+.button-container button{
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+a:hover{
+  text-decoration: none;
+}
+
+/* NAVBAR */
+.navbar-header .navbar-toggle .iconbar{
+  background-color: #3A8AFF;
+  width: 15px;
+}
+nav img{
+  height: 20px;
+}
+#navbar ul li a{
+  font-weight: bolder;
+}
+#navbar .button-container{
+  border:2px solid #006AFF;
+  position: relative;
+  top: 10px;
+  padding: 3px 8px;
+  border-radius: 10px;
+}
+/* NAVBAR MEDIA QUERY */
+@media (max-width: 1000px) {
+ .navbar-toggle {
+   display: block;
+   position: absolute;
+   right: 0px;
+   }
+   .navbar-toggle .icon-bar{
+     background-color: #006AFF;
+   }
+ #navbar{
+     display: none !important;
+   }
+}
+/* FINE NAVBAR MEDIA QUERY */
+/* END NAVBAR */
+
+/* Jumbotron */
+#jumbotron {
+  background-image: url(../img/jumbotron-bckg.jpg);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#left-jumbotron h1{
+  font-size: 60px;
+  font-weight: bolder;
+}
+#left-jumbotron h3{
+  color: #99b8f1;
+  font-weight: 10px;;
+  font-size: 30px;
+}
+#right-jumbotron{
+  background-color: #fff;
+  border-radius: 20px;
+}
+#right-jumbotron h2:first-child{
+  color: #1f2f4d;
+}
+#right-jumbotron h2{
+  color:#004bff;
+  font-weight: bolder;
+  font-size: 36px;
+  text-align: center;
+}
+#right-jumbotron .form-control{
+  padding: 20px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+#right-jumbotron .form-control{
+  font-weight: bold;
+}
+.button-signup .btn-info a{
+  color: #fff;
+  font-weight: bold;
+}
+.google-button button{
+  border: none;
+  box-shadow: 5px 5px 5px lightgrey;
+  position: relative;
+}
+.google-button img{
+  width: 20px;
+  position: absolute;
+  left: 10px;
+}
+.google-button button a{
+  color: grey;
+  font-weight: bold;
+}
+#right-jumbotron p{
+  text-align: center;
+  font-weight: bold;
+  color: grey;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+#right-jumbotron p a{
+  text-decoration: underline;
+}
+
+/* MEDIA QUERY JUMBOTRON */
+@media (max-width: 768px) {
+  #right-jumbotron{
+    margin-top: 30px;
+  }
+
+}
