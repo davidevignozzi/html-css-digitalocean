@@ -52,7 +52,7 @@ nav img{
 /* FINE NAVBAR MEDIA QUERY */
 /* END NAVBAR */
 
-/* Jumbotron */
+/* JUMBOTRON */
 #jumbotron {
   background-image: url(../img/jumbotron-bckg.jpg);
   padding-top: 50px;
@@ -122,5 +122,49 @@ nav img{
   #right-jumbotron{
     margin-top: 30px;
   }
-
+  #left-jumbotron h1{
+    font-size: 40px;
+  }
+  #left-jumbotron h3{
+    font-size: 25px;
+  }
 }
+
+@media (min-width: 768px) and (max-width: 992px){
+  #left-jumbotron h1{
+    font-size: 40px;
+  }
+  #left-jumbotron h3{
+    font-size: 25px;
+  }
+}
+/* END MEDIA QUERY JUMBOTRON */
+/* END JUMBOTRON */
+
+/* CUSTOMERS-GREY */
+#customers-grey{
+  background-color: #f3f5f9;
+}
+#customers-grey h6 {
+  text-align: center;
+  font-weight: bold;
+  color: grey;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#customers-grey img{
+  width: 150px;
+}
+/* MEDIA QUERY CUSTOMERS GREY */
+@media (max-width: 768px){
+  #customers-grey img{
+    height: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px){
+  #customers-grey img{
+    height: 50px;
+  }
+}
+/* END MEDIA QUERY CUSTOMERS GREY */
+/* END CUSTOMERS-GREY */
