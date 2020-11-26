@@ -16,7 +16,18 @@
 a:hover{
   text-decoration: none;
 }
-
+.title{
+  text-align: center;
+  color: #001b4b;
+  font-weight: bold;
+  font-size: 36px;
+}
+.subtitle{
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: #949bad;
+}
 /* NAVBAR */
 .navbar-header .navbar-toggle .iconbar{
   background-color: #3A8AFF;
@@ -72,7 +83,7 @@ nav img{
   border-radius: 20px;
 }
 #right-jumbotron h2:first-child{
-  color: #1f2f4d;
+  color: #001b4b;
 }
 #right-jumbotron h2{
   color:#004bff;
@@ -148,7 +159,7 @@ nav img{
 #customers-grey h6 {
   text-align: center;
   font-weight: bold;
-  color: grey;
+  color: #949bad;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -158,13 +169,42 @@ nav img{
 /* MEDIA QUERY CUSTOMERS GREY */
 @media (max-width: 768px){
   #customers-grey img{
-    height: 50px;
+    width: 100%;
   }
 }
 @media (min-width: 768px) and (max-width: 992px){
   #customers-grey img{
-    height: 50px;
+    width: 100%;
   }
 }
 /* END MEDIA QUERY CUSTOMERS GREY */
 /* END CUSTOMERS-GREY */
+
+/* DEPLOY AND SCALE */
+#deploy .row{
+  margin-top: 50px;
+}
+#list-deploy ul li{
+  border-left: 2px solid #949bad;
+  padding-left: 5px;
+}
+#list-deploy ul{
+  list-style: none;
+  padding-inline-start: 0;
+}
+#list-deploy ul li a{
+  color: #949bad;
+  font-size: 18px;
+}
+#deploy h4{
+  color: #001b4b;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+#deploy p{
+  color: #949bad;
+  padding-bottom: 10px;
+}
+
+/* END DEPLOY AND SCALE */
