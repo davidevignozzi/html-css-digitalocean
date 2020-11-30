@@ -332,7 +332,8 @@ nav img{
   background-color: #f3f5f9;
 }
 #carousel h2{
-  padding: 30px 0;
+  padding-top: 30px;
+  padding-bottom: 100px;
 }
 .slider-box {
   position: relative;
@@ -342,7 +343,7 @@ nav img{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 30px;
+  font-size: 22px;
 }
 .slider-inner {
   width: 60%;
@@ -380,6 +381,7 @@ padding-top: 15px;
 }
 .radio-carousel{
   text-align: center;
+  margin-top: 20px;
 }
 
 /* MEDIA QUERY CAROUSEL */
@@ -391,3 +393,50 @@ padding-top: 15px;
 }
 /* FINE MEDIA QUERY CAROUSEL */
 /* FINE CAROUSEL */
+/* CREATE ACCOUNT */
+#account{
+  background-color: #003db7;
+}
+#account h2{
+  color: #fff;
+  padding: 30px 0;
+}
+.button-account{
+  text-align:center;
+  padding-bottom: 30px;
+}
+.button-account .btn{
+  color: #006AFF;
+}
+/* FINE CREATE ACCOUNT */
+
+/* FOOTER */
+footer{
+  background-color: #031C4E;
+  padding: 50px 0;
+}
+#credits img{
+  height: 100px;
+}
+#credits h6{
+  color: grey;
+}
+#credits p{
+  color: grey;
+  opacity: 0,7;
+}
+#credits i{
+ font-size: 26px;
+ color: grey;
+ padding-left: 10px;
+}
+footer ul{
+  list-style: none;
+}
+footer ul li:first-of-type{
+  padding: 15px 0;
+}
+footer ul li a{
+  color: grey;
+}
+/* END FOOTER */
