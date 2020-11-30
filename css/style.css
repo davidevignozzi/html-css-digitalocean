@@ -331,15 +331,63 @@ nav img{
 #carousel{
   background-color: #f3f5f9;
 }
-#carousel .container-carousel{
-  max-width: 800px;
+#carousel h2{
+  padding: 30px 0;
+}
+.slider-box {
+  position: relative;
+  height: 100%;
+}
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+}
+.slider-inner {
+  width: 60%;
   margin: 0 auto;
-}
-.container-carousel img{
-  max-width: 400px;
-}
-.rockerbox-container{
+  background-color: #fff;
   text-align: center;
-  margin-top: 50px;
+  padding: 50px 0;
 }
+.slider-arrow-left {
+  left: 15%;
+}
+.slider-arrow-right {
+  right: 15%;
+}
+.slider-arrow-left .glyphicon:hover,
+.slider-arrow-right .glyphicon:hover{
+  color: #949bad;
+  cursor: pointer;
+}
+.img-rockerbox{
+  text-align: center;
+}
+.img-rockerbox img{
+  width: 300px;
+}
+#carousel .slider-inner h4{
+padding-top: 15px;
+}
+#carousel .slider-inner h5{
+  color: #001b4b;
+  padding: 20px 0;
+}
+#carousel .slider-inner a{
+  font-weight: bolder;
+}
+.radio-carousel{
+  text-align: center;
+}
+
+/* MEDIA QUERY CAROUSEL */
+@media (max-width: 768px){
+  .slider-arrow-left,
+  .slider-arrow-right{
+    display: none;
+  }
+}
+/* FINE MEDIA QUERY CAROUSEL */
 /* FINE CAROUSEL */
